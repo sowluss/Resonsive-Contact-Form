@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: #34494e;
+}
+
+.contact-section {
+  background: url('kyeboard.jpeg') no-repeat center;
+  background-size: cover;
+  padding: 48px 0;
+}
+
+.contact-section h1 {
+  text-align: center;
+  color: #ddd;
+  margin: 30px 0;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: none;
+  background: rgb(58, 58, 58);
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: .5s;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #95a3a7;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn {
+  float: right;
+  border: 0;
+  background: #34494e;
+  color: #fff;
+  padding: 12px 50px;
+  cursor: pointer;
+  transition: .5s;
+  text-transform: uppercase;
+}
+
+.contact-form-btn:hover {
+ background: #2980b9;
+}
